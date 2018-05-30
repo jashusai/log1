@@ -2,7 +2,7 @@
 
 ## About the project:
 
-My project was Log analysis project and this run in python and connect to a database name psycopg2.
+My project was Log analysis project and this run in python3 and connect to a database name psycopg2.
 
 ## Required Softwares:
   
@@ -10,7 +10,7 @@ My project was Log analysis project and this run in python and connect to a data
   
   2.Virtualbox.
   
-  3.python.
+  3.python3.
   
   4.postgresql.
   
