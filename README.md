@@ -10,7 +10,7 @@ My project was Log analysis project and this run in python and connect to a data
   
   2.Virtualbox.
   
-  3.python2.
+  3.python.
   
   4.postgresql.
   
