@@ -20,12 +20,15 @@ Reporting tool should answer the following questions:
 
 3.On which days did more than 1% of requests lead to errors?
 
-Project follows good SQL coding practices: 
+Project follows good SQL coding practices:
+
 1.Each question should be answered with a single database query.
 
 2.The code is error free and conforms to the PEP8 style recommendations.
 
-3.The code presents its output in clearly forma
+3.The code presents its output in clearly formatted plain text.
+
+## Setup environment:
 
 1.Download Vagrant and install.
 
