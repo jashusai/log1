@@ -1,49 +1,34 @@
-# log analysis 
+#Logs Analysis Project:
 
-## About the project:
+Building an informative summary from logs by sql database queries. Interacting with a live database both from the command line and from the python code. This project is a part of the Udacity's Full Stack Web Developer Nanodegree.
 
-My project was Log analysis project and this run in python3 and connect to a database name psycopg2.
+## Software Technologies used:
 
-## Required Softwares:
-  
-  1.Vagrant.
-  
-  2.Virtualbox.
-  
-  3.python3.
-  
-  4.postgresql.
-  
-  5.Psycopg2.
-  
-## Content files:
-  
-  1.news.py.
-  
-  2.output1.png.
+1.PostgreSQL
 
-## Process:
+2.Writing Python code with DB-API
 
-  1.If you don't already have the latest version of python download it from the link in requirements.
-  
-  2.Download Vagrant and VirtualBox.
-  
-  3.Install Vagrant and VirtualBox.
-  
-  4.Download the database psycopg2.
-  
-  5.launch the virtual machine with vagrant up.
-  
-  6.Once Vagrant installs necessary files use vagrant ssh to continue.
-  
-  7.The command line will now start with vagrant. Here cd into the /vagrant folder.
-  
-  8.Download newsdata.sql file from [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
-  
-  9.To load the database type psql -d news -f newsdata.sql.
-  
-  10.To run the database type psql -d news.
-  
-  11.You must run the commands from the Create views section here to run the python program successfully.
-  
-  12.Use command python news.py to run the python program that fetches query results
+3.Linux-based virtual machine (VM) Vagrant
+
+## Project Requirements:
+
+Reporting tool should answer the following questions:
+1.Most popular three articles of all time?
+Who are the most popular article authors of all time?
+On which days did more than 1% of requests lead to errors?
+Project follows good SQL coding practices: Each question should be answered with a single database query.
+The code is error free and conforms to the PEP8 style recommendations.
+The code presents its output in clearly formatted plain text.
+System setup and how to view this project
+This project makes use of Udacity's Linux-based virtual machine (VM) configuration which includes all of the necessary software to run the application.
+
+Download Vagrant and install.
+Download Virtual Box and install.
+Clone this repository to a directory of your choice.
+Download the newsdata.sql (extract from newsdata.zip (not provided here though)) and newsdata.py files from the respository and move them to your vagrant directory within your VM.
+Run these commands from the terminal in the folder where your vagrant is installed in:
+vagrant up to start up the VM.
+vagrant ssh to log into the VM.
+cd /vagrant to change to your vagrant directory.
+psql -d news -f newsdata.sql to load the data and create the tables.
+python3 newsdata.py to run the reporting tool
