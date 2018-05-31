@@ -1,6 +1,6 @@
 # Logs Analysis Project:
 
-Building an informative summary from logs by sql database queries. Interacting with a live database both from the command line and from the python code. This project is a part of the Udacity's Full Stack Web Developer Nanodegree.
+Building an informative summary from logs by sql database queries. Interacting with a live database both from the command line and from the python code.
 
 ## Software Technologies used:
 
@@ -46,8 +46,10 @@ Project follows good SQL coding practices:
 
 4.run the virtual machine with command vagrant up then vagrant ssh.
 
-5.once inside the VM, load the database by running psql -d news -f newsdata.sql
+5.once inside the VM,postgresql and psycopg2 are installed.
 
-6.cd /vagrant to change to your vagrant directory.
+6.load the database by running psql -d news -f newsdata.sql
 
-7.python news.py to run the reporting tool.
+7.cd /vagrant to change to your vagrant directory.
+
+8.python news.py to run the reporting tool.
